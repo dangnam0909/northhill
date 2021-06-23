@@ -1,0 +1,181 @@
+@charset "UTF-8";
+.page {
+  background: url(../img/common/background-sample-1.jpg) repeat-y center;
+  background-position: top center;
+  padding-bottom: 60rem;
+}
+
+#page-heading {
+  padding-top: 40rem;
+  padding-bottom: 35rem;
+}
+
+#page-heading .page-heading__inner .page-title--common {
+  font-size: 38rem;
+  text-align: center;
+  color: #425A37;
+  -webkit-font-feature-settings: "palt" 1;
+          font-feature-settings: "palt" 1;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 1000px) {
+  #page-heading {
+    padding-top: 80px;
+    padding-bottom: 35px;
+  }
+  #page-heading .page-heading__inner .page-title--common {
+    font-size: 38px;
+  }
+}
+
+#sitemap #page-content .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#sitemap #page-content .flex-row .flex-col {
+  width: 100%;
+  margin-bottom: 50rem;
+}
+
+#sitemap #page-content a.first-item {
+  color: #425A37;
+  font-weight: bold;
+}
+
+#sitemap #page-content a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 34rem;
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  font-weight: 500;
+  line-height: 2;
+}
+
+#sitemap #page-content li.menu-item-has-children {
+  display: block;
+}
+
+#sitemap #page-content li.menu-item-has-children::before {
+  content: none;
+}
+
+#sitemap #page-content li.menu-item-has-children > a {
+  position: relative;
+}
+
+#sitemap #page-content li.menu-item-has-children > a::before {
+  content: "●";
+  font-size: 16rem;
+  margin-right: 10rem;
+}
+
+#sitemap #page-content ul.children-menu {
+  margin-left: 25rem;
+}
+
+#sitemap #page-content ul.children-menu li {
+  position: relative;
+}
+
+#sitemap #page-content ul.children-menu li::before {
+  content: "ー";
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  font-weight: 500;
+  font-size: 28rem;
+  margin-right: 10rem;
+}
+
+#sitemap #page-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+#sitemap #page-content ul li::before {
+  content: "●";
+  font-size: 16rem;
+  margin-right: 10rem;
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  font-weight: 500;
+}
+
+#sitemap #page-content ul.children-menu,
+#sitemap #page-content ul {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  #sitemap #page-content .flex-row .flex-col {
+    width: calc(100% / 3);
+    margin-bottom: 0;
+  }
+  #sitemap #page-content .flex-row.flex-end {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  #sitemap #page-content a {
+    font-size: 18px;
+  }
+  #sitemap #page-content ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  #sitemap #page-content ul li::before {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  #sitemap #page-content a.first-item {
+    font-size: 22px;
+  }
+  #sitemap #page-content a.first-item.fi-pc {
+    font-size: 16px;
+  }
+  #sitemap #page-content ul.children-menu {
+    margin-left: 25px;
+  }
+  #sitemap #page-content ul.children-menu li {
+    position: relative;
+  }
+  #sitemap #page-content ul.children-menu li::before {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  #sitemap #page-content li.menu-item-has-children > a::before {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  #sitemap #page-content .mg-bt {
+    margin-bottom: 45px;
+  }
+  #sitemap #page-content .row-mgbt {
+    margin-bottom: 60px;
+  }
+}
+
+#page-content .page-wrap {
+  padding: 70rem 70rem 90rem 70rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 7px 1px #ccc;
+          box-shadow: 0px 0px 7px 1px #ccc;
+}
+
+@media screen and (min-width: 1000px) {
+  #page-content .page-wrap {
+    padding: 85px 80px 80px 90px;
+  }
+}
+/*# sourceMappingURL=sitemap.css.map */

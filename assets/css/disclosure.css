@@ -1,0 +1,307 @@
+.page {
+  background: url(../img/common/background-sample-1.jpg) repeat-y center;
+  background-position: top center;
+  padding-bottom: 60rem;
+}
+
+#page-heading {
+  padding-top: 40rem;
+  padding-bottom: 35rem;
+}
+
+#page-heading .page-heading__inner .page-title--common {
+  font-size: 38rem;
+  text-align: center;
+  color: #425A37;
+  -webkit-font-feature-settings: "palt" 1;
+          font-feature-settings: "palt" 1;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 1000px) {
+  #page-heading {
+    padding-top: 80px;
+    padding-bottom: 35px;
+  }
+  #page-heading .page-heading__inner .page-title--common {
+    font-size: 38px;
+  }
+}
+
+#page-content .page-wrap {
+  padding: 34rem 44rem 90rem 49rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 7px 1px #ccc;
+          box-shadow: 0px 0px 7px 1px #ccc;
+}
+
+#page-content .page-wrap p,
+#page-content .page-wrap ul li,
+#page-content .page-wrap figure,
+#page-content .page-wrap table {
+  font-size: 26rem;
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  font-weight: 500;
+}
+
+#page-content .page-wrap h4 {
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 28rem;
+}
+
+#page-content .page-wrap h4.not-mg {
+  margin-bottom: 0;
+}
+
+#page-content .page-wrap figure {
+  margin-bottom: 30rem;
+  margin-top: 10rem;
+}
+
+#page-content .page-wrap table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+#page-content .page-wrap table th,
+#page-content .page-wrap table td {
+  border: 1px solid #494949;
+  padding: 10rem 15rem;
+  text-align: center;
+}
+
+#page-content .page-wrap table th {
+  font-weight: inherit;
+}
+
+#page-content .page-wrap table tr td:first-child {
+  text-align: left;
+}
+
+#page-content .page-wrap table .note-tb {
+  display: none;
+}
+
+#page-content .page-wrap table .size-1 {
+  width: 275rem;
+}
+
+#page-content .page-wrap table .size-2 {
+  width: calc((100% - 275rem) / 3);
+  padding: 10rem 9rem;
+}
+
+#page-content .page-wrap p:not(:last-child) {
+  margin-bottom: 55rem;
+}
+
+#page-content .page-wrap p.not-mg {
+  margin-bottom: 0 !important;
+}
+
+#page-content .page-wrap p .mg-35 {
+  margin-bottom: 50rem;
+}
+
+#page-content .page-wrap .--green-note {
+  color: #425A37;
+  font-size: 26rem;
+  font-weight: bold;
+}
+
+#page-content .page-wrap a {
+  color: #2E2EDD;
+  text-decoration: underline;
+  -webkit-transition: ease-out;
+  transition: ease-out;
+}
+
+#page-content .page-wrap a:hover {
+  opacity: 0.7;
+}
+
+#page-content .page-wrap .list-a {
+  margin-bottom: 55rem;
+}
+
+#page-content .page-wrap .list-a p:not(:last-child) {
+  margin-bottom: 50rem;
+}
+
+#page-content .page-wrap .list-a strong {
+  display: block;
+}
+
+#page-content .page-wrap h3.tl {
+  color: #425A37;
+  font-size: 32rem;
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 25rem;
+}
+
+#page-content .page-wrap h3.tl::before {
+  content: "";
+  background: url(../img/icons/icon-green-cloud.svg) no-repeat center;
+  background-size: contain;
+  display: block;
+  margin: auto;
+  margin-bottom: 20rem;
+  width: 59rem;
+  height: 30rem;
+}
+
+#page-content .page-wrap hr.page-hr {
+  background-color: #425A37;
+  margin-bottom: 55rem;
+}
+
+#page-content .page-wrap hr.page-hr.no-mg {
+  margin-bottom: 0;
+}
+
+#page-content .page-wrap hr.page-hr.hr-35 {
+  margin-bottom: 40rem;
+}
+
+#page-content .page-wrap ul {
+  margin-bottom: 55rem;
+}
+
+#page-content .page-wrap ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  position: relative;
+  padding-left: 20rem;
+}
+
+#page-content .page-wrap ul li::before {
+  content: "";
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  background-color: #494949;
+  border-radius: 50%;
+  left: 0;
+  top: 17rem;
+}
+
+@media screen and (min-width: 1000px) {
+  #page-content .page-wrap {
+    padding: 65px 47px 70px 50px;
+  }
+  #page-content .page-wrap p,
+  #page-content .page-wrap ul li,
+  #page-content .page-wrap figure,
+  #page-content .page-wrap table {
+    font-size: 16px;
+  }
+  #page-content .page-wrap h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  #page-content .page-wrap figure {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  #page-content .page-wrap table th, #page-content .page-wrap table td {
+    padding: 10px 15px;
+  }
+  #page-content .page-wrap table .note-tb {
+    display: table-cell;
+  }
+  #page-content .page-wrap table .size-1 {
+    width: 348px;
+  }
+  #page-content .page-wrap table .size-2 {
+    width: calc((100% - 348px) / 4);
+    padding: 10px 15px;
+  }
+  #page-content .page-wrap table .lt-sp {
+    text-align: left;
+    letter-spacing: 16px;
+  }
+  #page-content .page-wrap h3.tl {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  #page-content .page-wrap h3.tl::before {
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 0;
+    margin-right: 10px;
+    width: 26px;
+    height: 14px;
+  }
+  #page-content .page-wrap p:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  #page-content .page-wrap p.pc-right {
+    text-align: right;
+  }
+  #page-content .page-wrap p .mg-35 {
+    margin-bottom: 45px;
+  }
+  #page-content .page-wrap .--green-note {
+    font-size: 18px;
+  }
+  #page-content .page-wrap ul {
+    margin-bottom: 75px;
+  }
+  #page-content .page-wrap ul li {
+    padding-left: 17px;
+  }
+  #page-content .page-wrap ul li::before {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    left: 0;
+    top: 10px;
+  }
+  #page-content .page-wrap .list-a {
+    margin-bottom: 50px;
+  }
+  #page-content .page-wrap .list-a p:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  #page-content .page-wrap .list-a p strong {
+    margin-bottom: 22px;
+  }
+  #page-content .page-wrap hr.page-hr {
+    margin-bottom: 50px;
+  }
+  #page-content .page-wrap hr.page-hr.hr-35 {
+    margin-bottom: 40px;
+  }
+}
+
+#privacy #page-content .page-wrap ul {
+  margin-top: 20rem;
+  margin-bottom: 45rem;
+}
+
+#privacy #page-content .page-wrap p.mg-65 {
+  margin-bottom: 65rem !important;
+}
+
+@media screen and (min-width: 1000px) {
+  #privacy #page-content .page-wrap .list-a p:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  #privacy #page-content .page-wrap ul {
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+  #privacy #page-content .page-wrap p.mg-65 {
+    margin-bottom: 55px !important;
+  }
+}
+/*# sourceMappingURL=disclosure.css.map */

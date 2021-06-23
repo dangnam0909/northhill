@@ -1,0 +1,3 @@
+<?php
+define('SITE_URL', 'https://example.projecthtml.com/north-hill');
+define('HOME_URL', 'https:/example.projecthtml.com/north-hill');

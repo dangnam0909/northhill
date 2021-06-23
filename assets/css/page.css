@@ -1,0 +1,65 @@
+.page .page-title {
+  color: #425A37;
+  border-bottom: 1px solid #C00;
+  font-size: 38rem;
+}
+
+.page .date {
+  text-align: right;
+}
+
+.page p, .page h4 {
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  font-weight: 500;
+}
+
+.page h4 {
+  margin-bottom: 10rem;
+  font-weight: bold;
+  font-size: 28rem;
+}
+
+.page h5 {
+  font-weight: bold;
+  font-size: 28rem;
+}
+
+.page p {
+  margin-bottom: 50rem;
+}
+
+.page .mb30 {
+  margin-bottom: 30rem;
+}
+
+.page .inner {
+  margin-bottom: 50rem;
+}
+
+.page ul li {
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1000px) {
+  .page .page-title {
+    font-size: 28px;
+  }
+  .page h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .page h5 {
+    font-size: 16px;
+  }
+  .page p {
+    margin-bottom: 50px;
+  }
+  .page .inner {
+    margin-bottom: 50px;
+  }
+  .page .mb30 {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=page.css.map */

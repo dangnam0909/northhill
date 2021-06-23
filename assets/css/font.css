@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* @font-face {
+	font-family: 'Yu Gothic';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: local("Yu Gothic Light") url(./fonts/YuGothic/YuGothic-Light.woff) format('woff');
+} */
+
+/* @font-face {
+	font-family: 'Yu Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local("Yu Gothic Regular") url(./fonts/YuGothic/YuGothic-Regular-01.ttf);
+} */
+@font-face {
+	font-family: 'Yu Gothic';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: local("Yu Gothic Medium") url(./fonts/YuGothic/YuGothic-Medium.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Yu Gothic';
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+	src: local("Yu Gothic Bold") url(./fonts/YuGothic/YuGothic-Bold.woff) format('woff');
+}
+
+/* @font-face {
+	font-family: 'Yu Mincho';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: local("Yu Mincho Light"), url(./fonts/YuMin/yuminl.ttf) format('truetype');
+	font-weight: 300;
+} */
+@font-face {
+	font-family: 'Yu Mincho';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local("Yu Mincho Regular") url(./fonts/YuMin/yumin.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Yu Mincho';
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+	src: local("Yu Mincho Demibold"), url(./fonts/YuMin/yumindb.ttf) format('truetype');
+}
+
+
+@font-face {
+	font-family: 'A-OTF 武蔵野 Std';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(./fonts/A-OTF-MusashiStd-Regular.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'A P-OTF 秀英横太明朝 StdN';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url(./fonts/AP-OTF-ShueiYobuMinStdN-M.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'RA花牡丹 Std DB';
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+	src: url(./fonts/RAHanaBotanStdDB.otf) format('opentype');
+}
+
+
+html {
+	font-family: -apple-system, BlinkMacSystemFont, "Yu Gothic", YuGothic, sans-serif;
+}
